@@ -118,7 +118,7 @@ const renderRepoCard = (repo, options = {}) => {
   });
 
   card.disableAnimations();
-  card.setHideBorder(false);
+  card.setHideBorder(true);
   card.setHideTitle(false);
   card.setCSS(`
     .description { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${textColor} }
