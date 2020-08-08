@@ -12,7 +12,7 @@ class Card {
     this.width = width;
     this.height = height;
 
-    this.hideBorder = false;
+    this.hideBorder = true;
     this.hideTitle = false;
 
     // returns theme based colors with proper overrides and defaults
